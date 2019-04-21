@@ -17,7 +17,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 440px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -40,6 +40,10 @@ p {
   #index-banner .section {
     top: 0;
   }
+}
+
+.rounded-corners{
+  border-radius: 6px;
 }
 
 .icon-block {
