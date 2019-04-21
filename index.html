@@ -17,6 +17,9 @@
 <body>
 
 	<!--Space for a materializeCss carrousel-->
+	<div class="parallax-container">
+		<div class="parallax"><img src="images/parallax1.jpg"></div>
+	</div>
 
 	<!--End-->
 
@@ -103,6 +106,31 @@
 			<footer>
 				
 			</footer>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/materialize.js"></script>
+			
+			<script>
+				$(document).ready(function(){
+					$('.materialboxed').materialbox();
+				});
+				
+				$(document).ready(function(){
+					$('.carousel').carousel();
+				});
+				
+				$(document).ready(function(){
+					$('.slider').slider();
+				});
+				
+				$(document).ready(function(){
+					$('.parallax').parallax();
+				});
+			</script>
+
 			
 		</div>
 	</div>
