@@ -13007,7 +13007,13 @@ button.bg-lighter:focus
 
 .bg-gradient-warning
 {
-    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+    
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+
 }
 
 .bg-gradient-danger
@@ -13207,7 +13213,11 @@ button.section-darker:focus
 
 .bg-gradient-warning
 {
-    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 .bg-gradient-danger
@@ -17438,10 +17448,55 @@ textarea[resize='horizontal']
 {
     background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
 }
+
+
 .section-shaped .shape-style-1.shape-default
 {
-    background: linear-gradient(150deg, #34e89e 15%, #0f3443 70%, #0f3443 94%);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
 .section-shaped .shape-style-1.shape-light
 {
     background: linear-gradient(150deg, shapes-light-color('step-1-gradient-bg') 15%, shapes-light-color('step-2-gradient-bg') 70%, shapes-light-color('step-3-gradient-bg') 94%);
