@@ -13376,10 +13376,6 @@ button.section-darker:focus
 
     will-change: transform;
 }
-.floating:hover
-{
-    animation-play-state: paused;
-}
 
 .floating-lg
 {

@@ -212,38 +212,41 @@
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="../assets/img/theme/promo-1.png" class="img-fluid floating">
+            <img src="https://cloudk.com.mx/wp-content/uploads/2018/11/pag-.png" class="img-fluid floating">
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
               <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                <i class="ni ni-settings-gear-65"></i>
+                <i class="ni ni-palette"></i>
               </div>
               <h3>UX | UI Designer</h3>
               <p>Innovar, diseñar y crear son fundamentales para el desarrollo de un sitio web o aplicación móvil, 
                 pues es donde el usuario ve a través de sus ojos la elegancia y belleza del software.
               </p>
-              <div class="row">
-                <div  class="col-lg-2">
-                  <div>
-                    <div style="width:90px;height:auto;" class="badge-circle ">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
+
+              <div class="section">
+                <div class="row">
+                  <div  class="col-lg-3">
+                    <div style="width:50px;height:auto;" class="badge-circle ">
+                      <a  target="_blank" data-toggle="tooltip" data-original-title="Figma">
+                        <img src="https://res.cloudinary.com/craftwebs/image/upload/v1560275604/figma_wxh95h.png" class="img-fluid">
+                      </a>
                     </div>
                   </div>
-                </div>
-              
-                <div  class="col-lg-2">
-                  <div>
-                    <div style="width:90px;height:auto;" class="badge-circle">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
+                
+                  <div  class="col-lg-3">
+                    <div style="width:50px;height:auto;" class="badge-circle">
+                        <a  target="_blank" data-toggle="tooltip" data-original-title="Adobe Ilustrator">
+                          <img src="https://res.cloudinary.com/craftwebs/image/upload/v1560275611/ai_lupy3j.png" class="img-fluid">
+                        </a>
                     </div>
                   </div>
-                </div>
-              
-                <div  class="col-lg-2">
-                  <div>
-                    <div style="width:90px;height:auto;" class="badge-circle">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
+                
+                  <div  class="col-lg-3">
+                    <div style="width:50px;height:auto;" class="badge-circle">
+                        <a  target="_blank" data-toggle="tooltip" data-original-title="Adobe XD">
+                          <img src="https://res.cloudinary.com/craftwebs/image/upload/v1560275616/xd_jkjxal.png" class="img-fluid">                      
+                        </a>
                     </div>
                   </div>
                 </div>
@@ -285,15 +288,12 @@
         </div>
       </div>
     </section>
+
     <section class="section pb-0 bg-gradient-warning">
       <div class="container">
         <div class="row row-grid align-items-center">
-          <div class="col-md-6 order-lg-2 ml-lg-auto">
-            <div class="position-relative pl-md-5">
-              <img src="../assets/img/ill/ill-2.svg" class="img-center img-fluid">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
+          
+          <div class="col-lg-6 order-lg-2">
             <div class="d-flex px-3">
               <div>
                 <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
@@ -336,6 +336,11 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-lg-1 ml-lg-auto">
+            <div class="position-relative pl-md-5">
+              <img src="../assets/img/ill/ill-2.svg" class="img-center img-fluid">
             </div>
           </div>
         </div>
@@ -656,6 +661,9 @@
         </div>
       </div>
     </div>
+
+    
+
   </footer>
   <!-- Core -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -664,6 +672,20 @@
   <script src="assets/vendor/headroom/headroom.min.js"></script>
   <!-- Argon JS -->
   <script src="assets/js/argon.js?v=1.0.1"></script>
+  <!-- WhatsHelp.io widget -->
+  <script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+525539368482", // WhatsApp number
+            call_to_action: "Click aquí para contactarme", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script>
 </body>
 
 </html>
