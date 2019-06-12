@@ -34,7 +34,7 @@
             <div class="row">
               <div class="col-6 collapse-brand">
                 <a href="../index.html">
-                  <img src="../assets/img/brand/blue.png">
+                  <img src="">
                 </a>
               </div>
               <div class="col-6 collapse-close">
@@ -485,28 +485,37 @@
               <div class="card-body p-lg-5">
                 <h4 class="mb-1">Algún proyecto que pueda ayudarte?</h4>
                 <p class="mt-0">Contactame y te apoyo con soluciones para ti.</p>
-                <div class="form-group mt-5">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-user-run"></i></span>
+                 <form action="https://formspree.io/kgarciasan@outlook.com" method="POST"> 
+                  <div class="form-group mt-5">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-user-run"></i></span>
+                      </div>
+                      <input name="Nombre" type="text" class="form-control name" placeholder="Nombre/Empresa" >
                     </div>
-                    <input class="form-control" placeholder="Nombre/Empresa" type="text">
                   </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+
+                  <div class="form-group">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                      </div>
+                      <input name="Correo" type="email" class="form-control email" placeholder="Correo Electrónico" >
                     </div>
-                    <input class="form-control" placeholder="Correo Electrónico" type="email">
                   </div>
-                </div>
-                <div class="form-group mb-4">
-                  <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80" placeholder="Mensaje..."></textarea>
-                </div>
-                <div>
-                  <button type="button" class="btn btn-default btn-round btn-block btn-lg">Enviar</button>
-                </div>
+
+                  
+                  <div class="form-group mb-4">
+                    <textarea class="form-control form-control-alternative message" name="Mensaje" rows="4" cols="80" placeholder="Mensaje..."></textarea>
+                  </div>
+                  
+                  <div>
+                    <button type="submit" class=" submit btn btn-default btn-round btn-block btn-lg">
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+                <div class="status"></div>
               </div>
             </div>
           </div>
@@ -551,6 +560,8 @@
       </div>
     </section>
   </main>
+
+  <!--FOOTER SECTION-->
   <footer class="footer has-cards">
     <div class="container container-lg">
       <div class="row">
@@ -601,6 +612,8 @@
 
   </footer>
   <!-- Core -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script src="assets/js/form.js"></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/popper/popper.min.js"></script>
   <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
